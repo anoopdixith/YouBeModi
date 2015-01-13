@@ -1,0 +1,30 @@
+0. quality.txt file is zero index based (Why? Because, Half-open intervals compose well. More on this by Dijkstra here: http://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html)
+1. No space anywhere, use underscores to separate words
+2. Line delimited, no need for semicolons
+3. All the non-alphanumeric characters will be stripped off
+
+Format:
+"quality":<quality_name>
+<total_number_of_such_property_instances>
+<number_of_elements>
+<base>
+<element1_name>:(<element1_variable1>,<nothing> or <a number representing the probability of variable1> or <dependency_variable1,dependency_nuber>,...),(<element1_variable2>),...
+.
+.
+.
+
+=====
+where,
+<quality_name> is read as a String
+<total_number_of_such_property_instances> is internally converted to Long. So, its maximum limit is 9,223,372,036,854,775,807.
+<number_of_elements> is internally converted to Integer. So, its maximum limit is (2^31 - 1)
+<base> represents the base number for probability distributions. It is typically 100. Since probabilities of the "elements" can only be Integer values, base can use used to adjust the higher or lower precision values.
+E.g. If there are, say, 5 billion <total_number_of_such_property_instances>, then a difference of 0.5% can also make a huge difference in deciding the "world",so "base" could be set to 1000 or more to increase precision.
+
+Coming to the declaration of elements and their variables:
+An element_name is separated from rest of the details about the element by a colon. After the colon, variables of that element are listed in comma separated format.
+Each of the variable can
+0. just be the variable name in which case all the variables of that element are given equal probability,
+1. be followed by one Integer value separated by a comma, both being <variable_name> and Integer value enclosed inside small braces. The Integer value represents the probability of that variable happening,
+2. be followed by one or more dependency variable(s) and its/their weight (the influence or the probability of this variable happening given the dependency variable) each separated by a comma.
+   The "weight" is an Integer value. All the "dependency variables" MUST be present as a "variable" of one of the elements defined above this.

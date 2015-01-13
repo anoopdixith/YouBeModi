@@ -1,0 +1,13 @@
+quality:person
+800000000
+10
+economic_status:wealthy,midde_class,poor
+religion:majority,minority
+education:illiterate,minimum_education,college_degree,highly_educated
+field:science,art,neutral
+thinking:intellectual,religious,neutral
+political_bias:political,apolitical
+employment:retired,self_employed,govt_employee,private_sector,unemployed
+business_perspective:capitalist,socialist,communist
+age:20_to_30,30_to_45,45_to_60,above_60
+marital_status:married,unmarried

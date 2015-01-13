@@ -1,0 +1,38 @@
+ERROR main com.youbemodi.io.GenerateQuality - "quality" File format invalid - Check the file descriptior.
+ERROR main com.youbemodi.io.GenerateQuality - "quality" File format invalid - Check the file descriptior.
+ERROR main com.youbemodi.io.GenerateQuality - "quality" File format invalid - Check the file descriptior.
+ERROR main com.youbemodi.io.GenerateQuality - "quality" File format invalid - Check the file descriptior.
+ERROR main com.youbemodi.io.GenerateQuality - "quality" File format invalid - Check the file descriptior.
+ERROR main com.youbemodi.io.GenerateQuality - "quality" File format invalid - Check the file descriptior.
+ERROR main com.youbemodi.io.GenerateQuality - "quality" File format invalid - Check the file descriptior.
+INFO main com.youbemodi.io.Boot - Success.
+INFO main com.youbemodi.io.GenerateQuality - Quality name is person
+INFO main com.youbemodi.io.Boot - Success.
+INFO main com.youbemodi.io.GenerateQuality - Quality name is "person"
+INFO main com.youbemodi.io.Boot - Success.
+INFO main com.youbemodi.io.GenerateQuality - Quality name is "person"
+INFO main com.youbemodi.io.Boot - Success.
+INFO main com.youbemodi.io.GenerateQuality - Quality name is "person"
+INFO main com.youbemodi.io.GenerateQuality - Number of "quality" objects to be generated is 800000000
+INFO main com.youbemodi.io.GenerateQuality - Number of "quality" elements is 10
+INFO main com.youbemodi.io.Boot - Success.
+ERROR main com.youbemodi.io.GenerateQuality - IO Exception - File not found.
+ERROR main com.youbemodi.io.GenerateQuality - "quality.properties" file appears to be empty.
+ERROR main com.youbemodi.io.GenerateQuality - IO Exception - File not found.
+ERROR main com.youbemodi.io.GenerateQuality - "quality.properties" file appears to be empty.
+ERROR main com.youbemodi.io.GenerateQuality - IO Exception - File not found.
+ERROR main com.youbemodi.io.GenerateQuality - "quality.properties" file appears to be empty.
+ERROR main com.youbemodi.io.GenerateQuality - IO Exception - File not found.
+ERROR main com.youbemodi.io.GenerateQuality - "quality.properties" file appears to be empty.
+ERROR main com.youbemodi.io.GenerateQuality - IO Exception - File not found.
+ERROR main com.youbemodi.io.GenerateQuality - "quality.properties" file appears to be empty.
+ERROR main com.youbemodi.io.GenerateQuality - IO Exception - File not found.
+ERROR main com.youbemodi.io.GenerateQuality - "quality.properties" file appears to be empty.
+INFO main com.youbemodi.io.GenerateQuality - Path is quality.txt
+ERROR main com.youbemodi.io.GenerateQuality - IO Exception - File not found.
+ERROR main com.youbemodi.io.GenerateQuality - "quality.properties" file appears to be empty.
+INFO main com.youbemodi.io.GenerateQuality - Path is /Users/anoop/Documents/workspace1/alleclipse/YouBeModi/resources/quality.txt
+INFO main com.youbemodi.io.GenerateQuality - Quality name is "person"
+INFO main com.youbemodi.io.GenerateQuality - Number of "quality" objects to be generated is 800000000
+INFO main com.youbemodi.io.GenerateQuality - Number of "quality" elements is 10
+INFO main com.youbemodi.io.Boot - Success.

@@ -1,0 +1,15 @@
+quality:person
+800000000
+10
+100
+gender:(male,54),(female)
+economic_status:(wealthy,15),(midde_class,55),(poor)
+religion:(majority,70),(minority)
+education:(illiterate,poor,70),(minimum_education),(college_degree,middle_class,70),(highly_educated)
+field:(science),(art),(commerce)
+thinking:(intellectual,highly_educated,50),(religious,poor,80),(neutral)
+political_bias:(political,highly_educated,10),(apolitical,female,65)
+employment:(retired,illiterate,10),(self_employed),(govt_employee,illiterate,10,middle_class,60,college_degree,50),(private_sector,science,80),(unemployed,highly_educated,2)
+business_perspective:(capitalist,15),(socialist,60),(communist,25)
+age:(20_to_30),(30_to_45),(45_to_60),(above_60,retired,100)
+marital_status:(married,30_to_45,80,45_to_60,85,above_60,88),(unmarried)
